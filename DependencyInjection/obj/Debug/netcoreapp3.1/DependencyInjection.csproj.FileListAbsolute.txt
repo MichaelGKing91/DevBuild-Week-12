@@ -1,0 +1,13 @@
+C:\Users\mking10\dev\Week 12\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.exe
+C:\Users\mking10\dev\Week 12\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.deps.json
+C:\Users\mking10\dev\Week 12\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.json
+C:\Users\mking10\dev\Week 12\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.dev.json
+C:\Users\mking10\dev\Week 12\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\Users\mking10\dev\Week 12\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csprojAssemblyReference.cache
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfo.cs
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\Users\mking10\dev\Week 12\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.genruntimeconfig.cache

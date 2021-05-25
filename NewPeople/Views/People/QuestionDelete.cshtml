@@ -1,0 +1,11 @@
+﻿@model People
+@{
+    ViewData["Title"] = "QuestionDelete";
+}
+
+<h1>Are you sure you want to delete @Model.firstname @Model.lastname?</h1>
+<p>Id: @Model.id</p>
+<p>Email: @Model.email</p>
+<p>Phone: @Model.phone</p>
+
+<a href="/people/delete/@Model.id" class="btn btn-danger">Delete</a>
