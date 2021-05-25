@@ -1,30 +1,49 @@
-﻿using Dapper;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Dapper.Contrib.Extensions;
+using Dapper;
+using System.Data;
 
 namespace NewPeople.Models
 {
-    // This class is not being used.
     public class DAL
     {
-        static MySqlConnection myDB = new MySqlConnection("Server=localhost;Database=newpeople;Uid=root;Password=abc123"); //CHANGE DATABASE NAME
+        public static IDbConnection myDB; // = new MySqlConnection("Server=localhost;Database=newpeople;Uid=root;Password=abc123");
 
-        public static List<People> GetAll()
+        static public List<People> GetAllPeopleByLastName()
         {
-            List<People> allPeople = myDB.Query<People>("select * from people order by lastname").ToList();
-            return allPeople;
+            //List<People> peeps = myDB.GetAll<People>().ToList();
+            List<People> peeps = myDB.Query<People>("select * from people order by lastname").ToList();
+            return peeps;
         }
 
-        public static List<People> Insert()
+        static public List<People> GetAllPeopleWithLastName(string lastname)
         {
-            List<People> allPeople = myDB.Query<People>("select * from people order by lastname").ToList();
-            return allPeople;
+            //List<People> peeps = myDB.GetAll<People>().ToList();
+            List<People> peeps = myDB.Query<People>($"select * from people where lastname = '{lastname}' order by lastname").ToList();
+            return peeps;
+        }
+        static public People GetPerson(int id)
+        {
+            return myDB.Get<People>(id);
+        }
+        static public void EditPerson(People peep)
+        {
+            myDB.Update(peep);
+        }
+        static public void DeletePerson(int id)
+        {
+            People peep = new People();
+            peep.id = id;
+            myDB.Delete<People>(peep); // 
         }
 
-
+        static public void Create(People peep)
+        {
+            myDB.Insert(peep);
+        }
     }
 }
