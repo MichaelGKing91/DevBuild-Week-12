@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewPeople", "NewPeople\NewPeople.csproj", "{CBD164EE-7266-4869-8C9C-03337933296F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{387F0EE4-5AE5-4A50-8689-CC209060C3F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{387F0EE4-5AE5-4A50-8689-CC209060C3F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepInj2", "DepInj2\DepInj2.csproj", "{4DE6576C-22BD-45F9-88CF-1A6F9315E6DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepInj2", "DepInj2\DepInj2.csproj", "{4DE6576C-22BD-45F9-88CF-1A6F9315E6DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqConsole", "LinqConsole\LinqConsole.csproj", "{30E5E660-34C5-4649-857E-37E04351B987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqConsole", "LinqConsole\LinqConsole.csproj", "{30E5E660-34C5-4649-857E-37E04351B987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus2MVC", "Bus2MVC\Bus2MVC.csproj", "{18CAA1EA-A606-4607-AA1A-F322AE52BF77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{30E5E660-34C5-4649-857E-37E04351B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E5E660-34C5-4649-857E-37E04351B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E5E660-34C5-4649-857E-37E04351B987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CAA1EA-A606-4607-AA1A-F322AE52BF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CAA1EA-A606-4607-AA1A-F322AE52BF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CAA1EA-A606-4607-AA1A-F322AE52BF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CAA1EA-A606-4607-AA1A-F322AE52BF77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+C:\Users\mking10\dev\Week 12\LinqConsole\bin\Debug\netcoreapp3.1\LinqConsole.exe
+C:\Users\mking10\dev\Week 12\LinqConsole\bin\Debug\netcoreapp3.1\LinqConsole.deps.json
+C:\Users\mking10\dev\Week 12\LinqConsole\bin\Debug\netcoreapp3.1\LinqConsole.runtimeconfig.json
+C:\Users\mking10\dev\Week 12\LinqConsole\bin\Debug\netcoreapp3.1\LinqConsole.runtimeconfig.dev.json
+C:\Users\mking10\dev\Week 12\LinqConsole\bin\Debug\netcoreapp3.1\LinqConsole.dll
+C:\Users\mking10\dev\Week 12\LinqConsole\bin\Debug\netcoreapp3.1\LinqConsole.pdb
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.csprojAssemblyReference.cache
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.AssemblyInfoInputs.cache
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.AssemblyInfo.cs
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.csproj.CoreCompileInputs.cache
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.dll
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.pdb
+C:\Users\mking10\dev\Week 12\LinqConsole\obj\Debug\netcoreapp3.1\LinqConsole.genruntimeconfig.cache
